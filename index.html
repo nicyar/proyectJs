@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Carrito</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/custom.css">
+
+
+</head>
+
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="row">
+				<div class="four columns">
+					<h2><a id='link'href="#">Tienda Medies</a></h2>
+				</div>
+				<div class="two columns u-pull-right">
+					<ul>
+						<li class="submenu">
+							<img src="img/cart.png" id="img-carrito">
+							<div id="carrito">
+								<table id="lista-carrito" class="u-full-width">
+									<thead>
+										<tr>
+											<th>Imagen</th>
+											<th>Nombre</th>
+											<th>Precio</th>
+											<th>Cantidad</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+									</tbody>
+								</table>
+
+								<a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<div id="hero">
+		<div class="container">
+			<div class="row">
+				<div class="six columns">
+					<div class="contenido-hero">
+						<h2>Buscar un producto</h2>
+						<form id="formulario">
+							<input type="text" class="u-full-width" id="buscador"
+								placeholder="Ingresa lo que quieres buscar">
+							<input class="submit-buscador" type="submit" value="Buscar">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h1 id="encabezado">Ropa Interior</h1>
+	<div id="lista-productos" class="container">
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="./js/productos.js"></script>
+	<script src="./js/app.js"></script>
+</body>
+
+</html>
