@@ -1,8 +1,8 @@
 # Tienda medies
-- La aplicacion es un carrito de compras donde se pueden agregar y eliminar productos y buscar estos por su nombre
+- La aplicación es un carrito de compras donde se pueden agregar y eliminar productos y buscar estos por su nombre
 
 ## Estado de la aplicacion
-terminada para entrega del proyecto del curso
+Proyecto terminado para la entrega del curso
 
 ## Instalción y Funcionamiento
 para la intalación del proyecto se uso:
